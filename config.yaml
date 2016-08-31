@@ -1,0 +1,36 @@
+baseUrl:        http://docs.corcel.io
+languageCode:   en-gb
+title:          Corcel
+MetaDataFormat: yaml
+theme:          hugo-corcel
+canonifyUrls:   true
+params:
+  # General information
+  author:      "Guzzler.io"
+  description: "Documentation for Corcel"
+  copyright:   "Released under my prefered license"
+
+  # Repository
+  provider:    "GitHub"
+  repo_url:    "https://github.com/guzzlerio/deride"
+  repo_id:     "deride"
+
+  version:     "1.0.0"
+  # favicon:     "favicon.ico"
+
+  permalink:   "#"
+  site_links:
+    - Label:   Downloads
+      URL:     https://corcel.io/downloads
+    - Label:   Documentation
+      URL:     http://docs.corcel.io
+    - Label:   Feedback
+      URL:     https://corcel.io/feedback
+
+social:
+  github:      "guzzlerio"
+menu:
+  main:
+    - name: Actions
+      weight: 100
+...
