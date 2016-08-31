@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Actions on Corcel</title>
+    <link>http://docs.corcel.io/tags/actions/</link>
+    <description>Recent content in Actions on Corcel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 24 Aug 2016 21:18:21 +0100</lastBuildDate>
+    <atom:link href="http://docs.corcel.io/tags/actions/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HttpRequest</title>
+      <link>http://docs.corcel.io/actions/httprequest/</link>
+      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
+      
+      <guid>http://docs.corcel.io/actions/httprequest/</guid>
+      <description>&lt;p&gt;The HttpRequest is used for all types of HTTP requests and supports the full list of methods (&lt;code&gt;GET&lt;/code&gt;, &lt;code&gt;POST&lt;/code&gt;, &lt;code&gt;PUT&lt;/code&gt;, &lt;code&gt;DELETE&lt;/code&gt;, &lt;code&gt;PATCH&lt;/code&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
