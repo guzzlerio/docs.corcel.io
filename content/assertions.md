@@ -19,5 +19,8 @@ Exact match assertion.
   expected: 200
 ```
 
-### Key
-The key path from the Action you want to assert on
+### `key`
+The key path from the Action you want to assert on.
+
+### `expected`
+The expected value.

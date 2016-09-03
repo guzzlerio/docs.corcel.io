@@ -12,22 +12,9 @@
   </div>
   <div class="navbar-collapse collapse" id="navbar-main">
     <ul class="nav navbar-nav">
-      {{ range .Site.Params.site_links }}
+      {{ range .Site.Params.siteLinks }}
         <li><a href="{{.URL}}">{{.Label}}</a></li>
       {{ end }}
-    </ul>
-
-    <ul class="nav navbar-nav navbar-right">
-      <li>
-      <a href="{{ .Site.Params.repo_url }}/releases/latest">Download</a>
-      </li>
-      <li>
-        <a href="{{ .Site.Params.repo_url }}/stargazers" target="_blank" title="Stargazers" data-action="star">
-          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>Stars
-          <span id="star_count">&ndash;</span>
-        </a>
-      </li>
-      <li><a href="https://github.com/{{ .Site.Social.github }}/{{.Site.Title}}">Github</a></li>
     </ul>
   </div>
 </div>

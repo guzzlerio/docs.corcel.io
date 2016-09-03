@@ -28,11 +28,11 @@ An example scenario file :
             requestTimeout : 150
             method : GET
             url : http://localhost:1337/success
-            httpHeaders :
+            headers:
                 content-Type: application/json
           assertions:
             -
               type: ExactAssertion
-              key : http:response:status
-              expected : 200
+              key: urn:http:response:status
+              expected: 200
 ```

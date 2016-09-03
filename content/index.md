@@ -12,9 +12,6 @@ Fancy box is used to display image gallery with this shortcode:
 {{</* gallery image="space2.jpg" addclass="hidden" */>}}
 {{< /highlight >}}
 
-{{< gallery image="space1.jpg" >}}
-{{< gallery image="space2.jpg" addclass="hidden" >}}
-
 # pygments
 
 Pygments is used to do syntax highlighting.
