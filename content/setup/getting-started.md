@@ -27,7 +27,7 @@ http.createServer((req, res) => {
 });
 ```
 
-Next create a file called **urls.txt** and paste the following lines inside:
+Next create a [URL file](/usage/using-a-url-file) called **urls.txt** and paste the following lines inside:
 
 ```txt
 http://localhost:1337/people

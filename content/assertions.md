@@ -7,9 +7,15 @@ menu:
     weight: 100
 ---
 
-# Exact
+### `key`
+The key path from the Action you want to assert on.
 
-Exact match assertion.
+### `expected`
+The expected value.
+
+---
+
+# Exact
 
 ## Usage:
 
@@ -19,8 +25,22 @@ Exact match assertion.
   expected: 200
 ```
 
-### `key`
-The key path from the Action you want to assert on.
+# LessThan | LessThanOrEqual | GreaterThan | GreaterThanOrEqual
 
-### `expected`
-The expected value.
+## Usage:
+
+```yaml
+- type: LessThanOrEqual
+  key: http:response:headers:Content-Length
+  expected: 512
+```
+
+
+# Empty | NotEmpty
+
+## Usage:
+
+```yaml
+- type: Empty
+  key: http:response:body
+```

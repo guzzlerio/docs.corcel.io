@@ -1,6 +1,6 @@
 ---
 date: 2016-08-24T19:59:36+01:00
-title: index
+title: Corcel documentation home.
 type: index
 ---
 

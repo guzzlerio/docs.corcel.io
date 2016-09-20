@@ -33,6 +33,6 @@ An example scenario file :
           assertions:
             -
               type: ExactAssertion
-              key: urn:http:response:status
+              key: http:response:status
               expected: 200
 ```

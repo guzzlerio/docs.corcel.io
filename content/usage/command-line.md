@@ -13,7 +13,7 @@ menu:
 Run a Corcel test. Can either be from a [scenario file](/usage/using-a-scenario-file) or a [url file](/usage/using-a-url-file).
 
 ### `server`
-Server will start up a Corcel Http Server for use in distributed load tests. This is not fully implemented at present.
+Server will start up a Corcel Http Server for use in distributed load tests. **This is not fully implemented at present**.
 
 ---
 
@@ -52,6 +52,11 @@ Sets the number of concurrent workers to use to execute the test.
 ## `--random`
 
 Sets the selection of the URL or the Job to be random.
+
+
+## `--progress`
+
+Sets the progress bar to use. Available options are: `none|bar|logo`
 
 ## <a name="valid-time-units">Valid Timeunits</a>
 
