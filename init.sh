@@ -1,5 +1,5 @@
-#echo "DON'T USE THIS ANYMORE - LEAVING IT TO SHOW THE HEAD F**K THAT GH-PAGES ADDING A CNAME CAUSED!! ARRGGGH"
-#exit
+echo "DON'T USE THIS ANYMORE - LEAVING IT TO SHOW THE HEAD F**K THAT GH-PAGES ADDING A CNAME CAUSED!! ARRGGGH"
+exit
 
 # Create a new orphand branch (no commit history) named gh-pages
 git checkout --orphan gh-pages
