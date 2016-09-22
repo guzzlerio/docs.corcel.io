@@ -2,7 +2,7 @@ baseUrl:        http://docs.corcel.io
 languageCode:   en-gb
 title:          Corcel
 metaDataFormat: yaml
-theme:          hugo-corcel
+theme:          theme.corcel.io
 canonifyUrls:   true
 params:
   # General information
