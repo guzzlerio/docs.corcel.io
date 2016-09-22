@@ -5,6 +5,7 @@ category: Output
 tags: [output]
 menu:
   main:
+    weight: 1
     name: Statistics
     parent: Output
 ---

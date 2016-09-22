@@ -5,6 +5,7 @@ category: Output
 tags: [output]
 menu:
   main:
+    weight: 2
     name: History
     parent: Output
 ---
