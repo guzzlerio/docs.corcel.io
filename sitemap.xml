@@ -57,6 +57,11 @@
   </url>
   
   <url>
+    <loc>http://docs.corcel.io/extractors/xpath/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://docs.corcel.io/usage/using-a-scenario-file/</loc>
     <lastmod>2016-08-24T21:05:40+01:00</lastmod>
   </url>
