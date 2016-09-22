@@ -111,6 +111,18 @@
     </item>
     
     <item>
+      <title>History</title>
+      <link>http://docs.corcel.io/output/history/</link>
+      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
+      
+      <guid>http://docs.corcel.io/output/history/</guid>
+      <description>&lt;p&gt;&lt;code&gt;default file: history.yml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Time series data from all previous plan executions with the most recent execution values being the last value in each of the time series data sets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>HttpRequest</title>
       <link>http://docs.corcel.io/actions/httprequest/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
@@ -143,6 +155,21 @@
 &lt;li&gt;&lt;code&gt;request:headers&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;response:status&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JavaScript DSL (Coming Soon)</title>
+      <link>http://docs.corcel.io/dsl/javascript/</link>
+      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
+      
+      <guid>http://docs.corcel.io/dsl/javascript/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;COMING SOON&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Create the plan using a JavaScript DSL and then execute using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;corcel run --dsl my-plan.js
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -250,34 +277,6 @@
       name: isbn
       key: http:response:body
       xpath: \\d+
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>TCP (Coming Soon)</title>
-      <link>http://docs.corcel.io/actions/tcp/</link>
-      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
-      
-      <guid>http://docs.corcel.io/actions/tcp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>XPath</title>
-      <link>http://docs.corcel.io/extractors/xpath/</link>
-      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
-      
-      <guid>http://docs.corcel.io/extractors/xpath/</guid>
-      <description>
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;extractors:
-    - type: XPath
-      name: isbn
-      key: http:response:body
-      xpath: library/*/isbn 
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>

@@ -37,7 +37,17 @@
   </url>
   
   <url>
+    <loc>http://docs.corcel.io/output/history/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://docs.corcel.io/actions/httprequest/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/dsl/javascript/</loc>
     <lastmod>2016-08-24T21:18:21+01:00</lastmod>
   </url>
   
@@ -68,6 +78,11 @@
   
   <url>
     <loc>http://docs.corcel.io/extractors/regex/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/output/statistics/</loc>
     <lastmod>2016-08-24T21:18:21+01:00</lastmod>
   </url>
   
