@@ -27,7 +27,7 @@ git subtree add --prefix=public git@github.com:guzzlerio/docs.corcel.io.git gh-p
 git subtree pull --prefix=public git@github.com:guzzlerio/docs.corcel.io.git gh-pages
 
 # Run hugo. Generated site will be placed in public directory (or omit -t ThemeName if you're not using a theme)
-hugo -t corcel-hugo
+hugo -t hugo-corcel
 
 
 # Add everything
