@@ -74,5 +74,15 @@ http://localhost:1337/processes
 </description>
     </item>
     
+    <item>
+      <title>Installation</title>
+      <link>http://docs.corcel.io/setup/installation/</link>
+      <pubDate>Wed, 24 Aug 2016 16:27:03 +0100</pubDate>
+      
+      <guid>http://docs.corcel.io/setup/installation/</guid>
+      <description>&lt;p&gt;Go to &lt;a href=&#34;downloads.corcel.io&#34;&gt;downloads.corcel.io&lt;/a&gt; and download the corcel package for your operating system.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

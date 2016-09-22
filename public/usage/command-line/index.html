@@ -79,6 +79,8 @@
         
         <a class="list-group-item" href="http://docs.corcel.io/setup/getting-started/">Getting Started </a>
         
+        <a class="list-group-item" href="http://docs.corcel.io/setup/installation/">Installation </a>
+        
     </div>
     
 
@@ -167,7 +169,7 @@
 
 <h2 id="command-line-options">Command line options</h2>
 
-<h2 id="summary"><code>--summary</code></h2>
+<h3 id="summary"><code>--summary</code></h3>
 
 <p>Outputs a summary of the test which includes the following information</p>
 
@@ -184,15 +186,15 @@
 <li>Max Response Time</li>
 </ul>
 
-<h2 id="duration-0s"><code>--duration=0s</code></h2>
+<h3 id="duration-0s"><code>--duration=0s</code></h3>
 
 <p>Sets the length of time the test will last.  By default the test will run until all urls have been executed or an execution plan has been completed a single time.  See <a href="#valid-time-units">Valid Timeunits</a> for the value of this option.</p>
 
-<h2 id="wait-time-0s"><code>--wait-time=0s</code></h2>
+<h3 id="wait-time-0s"><code>--wait-time=0s</code></h3>
 
 <p>Sets the length of time execution will wait between a url or a scenario step.  If multiple workers are configured this value will apply to each worker.  See <a href="#valid-time-units">Valid Timeunits</a> for the value of this option.</p>
 
-<h2 id="workers-1"><code>--workers=1</code></h2>
+<h3 id="workers-1"><code>--workers=1</code></h3>
 
 <p>Sets the number of concurrent workers to use to execute the test.</p>
 
@@ -201,15 +203,15 @@
 <li>If using a Scenario file each worker will execute each step of each job</li>
 </ul>
 
-<h2 id="random"><code>--random</code></h2>
+<h3 id="random"><code>--random</code></h3>
 
 <p>Sets the selection of the URL or the Job to be random.</p>
 
-<h2 id="progress"><code>--progress</code></h2>
+<h3 id="progress"><code>--progress</code></h3>
 
 <p>Sets the progress bar to use. Available options are: <code>none|bar|logo</code></p>
 
-<h2 id="a-name-valid-time-units-valid-timeunits-a"><a name="valid-time-units">Valid Timeunits</a></h2>
+<h3 id="a-name-valid-time-units-valid-timeunits-a"><a name="valid-time-units">Valid Timeunits</a></h3>
 
 <p>A duration string is a possibly signed sequence of decimal numbers, each with optional fraction and a unit suffix, such as &ldquo;300ms&rdquo;, &ldquo;-1.5h&rdquo; or &ldquo;2h45m&rdquo;. Valid time units are &ldquo;ns&rdquo;, &ldquo;us&rdquo; (or &ldquo;µs&rdquo;), &ldquo;ms&rdquo;, &ldquo;s&rdquo;, &ldquo;m&rdquo;, &ldquo;h&rdquo;.</p>
 
