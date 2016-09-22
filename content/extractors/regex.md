@@ -12,7 +12,7 @@ menu:
 ## Usage:
 
 ```yaml
-assertions:
+extractors:
     - type: Regex
       name: isbn
       key: http:response:body

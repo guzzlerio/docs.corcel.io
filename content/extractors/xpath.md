@@ -12,7 +12,7 @@ menu:
 ## Usage:
 
 ```yaml
-assertions:
+extractors:
     - type: XPath
       name: isbn
       key: http:response:body

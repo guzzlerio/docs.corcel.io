@@ -12,7 +12,7 @@ menu:
 ## Usage:
 
 ```yaml
-assertions:
+extractors:
     - type: KeyValue
       name: content-type
       key: http:response:headers:Content-Type

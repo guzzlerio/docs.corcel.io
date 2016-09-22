@@ -31,6 +31,14 @@ params:
     github:    guzzlerio
 menu:
   main:
+    - name: Setup
+      weight: 1
+    - name: Usage
+      weight: 2
     - name: Actions
-      weight: 100
+      weight: 3
+    - name: Assertions
+      weight: 4
+    - name: Extractors
+      weight: 5
 ...
