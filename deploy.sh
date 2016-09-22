@@ -17,5 +17,4 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-git subtree push --prefix=themes/hugo-corcel git@github.com:guzzlerio/hugo-corcel.git master
 git subtree push --prefix=public git@github.com:guzzlerio/docs.corcel.io.git gh-pages
