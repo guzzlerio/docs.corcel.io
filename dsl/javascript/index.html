@@ -2,20 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"  lang="en-gb">
-<title>Using a Scenario File - Corcel</title>
+<title>JavaScript DSL (Coming Soon) - Corcel</title>
 <meta name="generator" content="Hugo 0.16" />
 
 
 <meta name="description" content="Documentation for Corcel">
 
-<link rel="canonical" href="http://docs.corcel.io/usage/using-a-scenario-file/">
+<link rel="canonical" href="http://docs.corcel.io/dsl/javascript/">
 
 <meta name="author" content="Guzzler.io">
 
 <meta name="generator" content="Hugo 0.16" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:url" content="http://docs.corcel.io/usage/using-a-scenario-file/">
+<meta property="og:url" content="http://docs.corcel.io/dsl/javascript/">
 <meta property="og:title" content="Corcel">
 
 <meta name="apple-mobile-web-app-title" content="Corcel">
@@ -72,12 +72,12 @@
 <div class="list-group table-of-contents">
 
     
-    <a class="list-group-item" href=""><b>DSL</b>
+    <a class="list-group-item child-active" href=""><b>DSL</b>
     </a>
     
     <div class="list-group">
         
-        <a class="list-group-item" href="http://docs.corcel.io/dsl/javascript/">JavaScript DSL </a>
+        <a class="list-group-item active" href="http://docs.corcel.io/dsl/javascript/">JavaScript DSL </a>
         
     </div>
     
@@ -106,14 +106,14 @@
     </div>
     
 
-    <a class="list-group-item child-active" href=""><b>Usage</b>
+    <a class="list-group-item" href=""><b>Usage</b>
     </a>
     
     <div class="list-group">
         
         <a class="list-group-item" href="http://docs.corcel.io/usage/command-line/">Command line options </a>
         
-        <a class="list-group-item active" href="http://docs.corcel.io/usage/using-a-scenario-file/">Using a Scenario File </a>
+        <a class="list-group-item" href="http://docs.corcel.io/usage/using-a-scenario-file/">Using a Scenario File </a>
         
         <a class="list-group-item" href="http://docs.corcel.io/usage/using-a-url-file/">Using a URL File </a>
         
@@ -177,35 +177,13 @@
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-8">
                     <div>
-                        <h1 id="main">Using a Scenario File</h1>
+                        <h1 id="main">JavaScript DSL (Coming Soon)</h1>
                     </div>
-                    <p>An example scenario file :</p>
+                    <p><strong>COMING SOON</strong></p>
 
-<pre><code class="language-yaml">---
-  name : The plan
-  workers : 5
-  waitTime : 1500
-  duration: 10s
-  random : true
-  parallelJobs : true
-  jobs:
-    -
-      name : Register a user
-      steps:
-        -
-          name: Step number 1
-          action:
-            type : HttpRequest
-            requestTimeout : 150
-            method : GET
-            url : http://localhost:1337/success
-            headers:
-                content-Type: application/json
-          assertions:
-            -
-              type: ExactAssertion
-              key: http:response:status
-              expected: 200
+<p>Create the plan using a JavaScript DSL and then execute using:</p>
+
+<pre><code class="language-shell">corcel run --dsl my-plan.js
 </code></pre>
 
                 </div>
