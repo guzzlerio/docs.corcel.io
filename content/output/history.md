@@ -6,7 +6,7 @@ tags: [output]
 menu:
   main:
     name: History
-    parent: output
+    parent: Output
 ---
 
 `default file: history.yml`

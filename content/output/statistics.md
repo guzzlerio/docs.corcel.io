@@ -6,7 +6,7 @@ tags: [output]
 menu:
   main:
     name: Statistics
-    parent: output
+    parent: Output
 ---
 
 `default file: output.yml`

@@ -41,4 +41,8 @@ menu:
       weight: 4
     - name: Extractors
       weight: 5
+    - name: Output
+      weight: 6
+    - name: DSL
+      weight: 7
 ...
