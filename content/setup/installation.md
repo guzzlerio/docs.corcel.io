@@ -3,6 +3,7 @@ date: 2016-08-24T16:27:03+01:00
 title: Installation
 menu:
   main:
+    weight: 1
     name: Installation
     parent: Setup
 ---

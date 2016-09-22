@@ -3,6 +3,7 @@ date: 2016-08-24T16:27:03+01:00
 title: Getting Started
 menu:
   main:
+    weight: 2
     name: Getting Started
     parent: Setup
 ---
