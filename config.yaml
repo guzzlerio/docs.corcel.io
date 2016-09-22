@@ -1,0 +1,36 @@
+baseUrl:        http://docs.corcel.io
+languageCode:   en-gb
+title:          Corcel
+metaDataFormat: yaml
+theme:          hugo-corcel
+canonifyUrls:   true
+params:
+  # General information
+  author:      Guzzler.io
+  description: Documentation for Corcel
+  copyright:   Released under my prefered license
+
+  # Repository
+  provider:   GitHub
+  repoUrl:    https://github.com/guzzlerio/corcel.io
+  repoId:     corcel.io
+
+  version:     1.0.0
+  # favicon:     favicon.ico
+
+  permalink:   "#"
+  siteLinks:
+    - Label:   Downloads
+      URL:     https://corcel.io/downloads
+    - Label:   Documentation
+      URL:     http://docs.corcel.io
+    - Label:   Feedback
+      URL:     https://corcel.io/feedback
+
+  social:
+    github:    guzzlerio
+menu:
+  main:
+    - name: Actions
+      weight: 100
+...
