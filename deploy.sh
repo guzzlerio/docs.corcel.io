@@ -2,7 +2,8 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-(git clone git@github.com:guzzlerio/theme.corcel.io.git themes/theme.corcel.io &> /dev/null && \
+(mkdir -p themes && \
+    git clone git@github.com:guzzlerio/theme.corcel.io.git themes/theme.corcel.io &> /dev/null && \
     cd themes/theme.corcel.io && \
     git pull)
 
