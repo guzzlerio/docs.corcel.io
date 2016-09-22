@@ -1,15 +1,13 @@
 ---
 date: 2016-08-24T21:18:21+01:00
-title: NotEmptyAssertion
+title: Not Empty
 category: Assertions
 tags: [assertions]
 menu:
   main:
-    name: NotEmptyAssertion
+    name: Not Empty
     parent: Assertions
 ---
-
-# Not Empty
 
 ## Usage:
 

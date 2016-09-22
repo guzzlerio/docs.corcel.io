@@ -1,15 +1,13 @@
 ---
 date: 2016-08-24T21:18:21+01:00
-title: EmptyAssertion
+title: Empty
 category: Assertions
 tags: [assertions]
 menu:
   main:
-    name: EmptyAssertion
+    name: Empty
     parent: Assertions
 ---
-
-# Empty
 
 ## Usage:
 

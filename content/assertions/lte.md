@@ -1,15 +1,13 @@
 ---
 date: 2016-08-24T21:18:21+01:00
-title: LessThanOrEqualAssertion
+title: Less Than or Equal
 category: Assertions
 tags: [assertions]
 menu:
   main:
-    name: LessThanOrEqualAssertion
+    name: Less Than or Equal
     parent: Assertions
 ---
-
-# Less Than or Equal
 
 ## Usage:
 

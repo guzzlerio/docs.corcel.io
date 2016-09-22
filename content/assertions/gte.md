@@ -1,15 +1,13 @@
 ---
 date: 2016-08-24T21:18:21+01:00
-title: GreaterThanOrEqualAssertion
+title: Greater Than or Equal
 category: Assertions
 tags: [assertions]
 menu:
   main:
-    name: GreaterThanOrEqualAssertion
+    name: Greater Than or Equal
     parent: Assertions
 ---
-
-# Greater Than or Equal
 
 ## Usage:
 

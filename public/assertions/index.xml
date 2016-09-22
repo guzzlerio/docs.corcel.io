@@ -10,14 +10,12 @@
     <atom:link href="http://docs.corcel.io/assertions/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>EmptyAssertion</title>
+      <title>Empty</title>
       <link>http://docs.corcel.io/assertions/empty/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
       <guid>http://docs.corcel.io/assertions/empty/</guid>
       <description>
-
-&lt;h1 id=&#34;empty&#34;&gt;Empty&lt;/h1&gt;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
@@ -29,14 +27,12 @@
     </item>
     
     <item>
-      <title>ExactAssertion</title>
+      <title>Exact</title>
       <link>http://docs.corcel.io/assertions/exact/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
       <guid>http://docs.corcel.io/assertions/exact/</guid>
       <description>
-
-&lt;h1 id=&#34;exact&#34;&gt;Exact&lt;/h1&gt;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
@@ -49,14 +45,12 @@
     </item>
     
     <item>
-      <title>GreaterThanAssertion</title>
+      <title>Greater Than</title>
       <link>http://docs.corcel.io/assertions/gt/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
       <guid>http://docs.corcel.io/assertions/gt/</guid>
       <description>
-
-&lt;h1 id=&#34;greater-than&#34;&gt;Greater Than&lt;/h1&gt;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
@@ -69,14 +63,12 @@
     </item>
     
     <item>
-      <title>GreaterThanOrEqualAssertion</title>
+      <title>Greater Than or Equal</title>
       <link>http://docs.corcel.io/assertions/gte/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
       <guid>http://docs.corcel.io/assertions/gte/</guid>
       <description>
-
-&lt;h1 id=&#34;greater-than-or-equal&#34;&gt;Greater Than or Equal&lt;/h1&gt;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
@@ -89,14 +81,12 @@
     </item>
     
     <item>
-      <title>LessThanAssertion</title>
+      <title>Less Than</title>
       <link>http://docs.corcel.io/assertions/lt/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
       <guid>http://docs.corcel.io/assertions/lt/</guid>
       <description>
-
-&lt;h1 id=&#34;less-than&#34;&gt;Less Than&lt;/h1&gt;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
@@ -109,14 +99,12 @@
     </item>
     
     <item>
-      <title>LessThanOrEqualAssertion</title>
+      <title>Less Than or Equal</title>
       <link>http://docs.corcel.io/assertions/lte/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
       <guid>http://docs.corcel.io/assertions/lte/</guid>
       <description>
-
-&lt;h1 id=&#34;less-than-or-equal&#34;&gt;Less Than or Equal&lt;/h1&gt;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
@@ -129,14 +117,12 @@
     </item>
     
     <item>
-      <title>NotEmptyAssertion</title>
+      <title>Not Empty</title>
       <link>http://docs.corcel.io/assertions/not-empty/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
       <guid>http://docs.corcel.io/assertions/not-empty/</guid>
       <description>
-
-&lt;h1 id=&#34;not-empty&#34;&gt;Not Empty&lt;/h1&gt;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
@@ -148,14 +134,12 @@
     </item>
     
     <item>
-      <title>NotEqualAssertion</title>
+      <title>Not Equal</title>
       <link>http://docs.corcel.io/assertions/not-equal/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
       <guid>http://docs.corcel.io/assertions/not-equal/</guid>
       <description>
-
-&lt;h1 id=&#34;not-equal&#34;&gt;Not Equal&lt;/h1&gt;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 

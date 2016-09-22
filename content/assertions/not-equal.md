@@ -1,15 +1,13 @@
 ---
 date: 2016-08-24T21:18:21+01:00
-title: NotEqualAssertion
+title: Not Equal
 category: Assertions
 tags: [assertions]
 menu:
   main:
-    name: NotEqualAssertion
+    name: Not Equal
     parent: Assertions
 ---
-
-# Not Equal
 
 ## Usage:
 

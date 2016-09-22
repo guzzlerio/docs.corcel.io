@@ -1,15 +1,13 @@
 ---
 date: 2016-08-24T21:18:21+01:00
-title: GreaterThanAssertion
+title: Greater Than
 category: Assertions
 tags: [assertions]
 menu:
   main:
-    name: GreaterThanAssertion
+    name: Greater Than
     parent: Assertions
 ---
-
-# Greater Than
 
 ## Usage:
 
