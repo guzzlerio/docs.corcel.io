@@ -12,12 +12,47 @@
   </url>
   
   <url>
-    <loc>http://docs.corcel.io/assertions/</loc>
-    <lastmod>2016-08-24T21:19:42+01:00</lastmod>
+    <loc>http://docs.corcel.io/assertions/empty/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/assertions/exact/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/assertions/gt/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/assertions/gte/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://docs.corcel.io/actions/httprequest/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/assertions/lt/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/assertions/lte/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/assertions/not-empty/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/assertions/not-equal/</loc>
     <lastmod>2016-08-24T21:18:21+01:00</lastmod>
   </url>
   
