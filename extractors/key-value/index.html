@@ -2,20 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"  lang="en-gb">
-<title>Getting Started - Corcel</title>
+<title>Key Value (Coming Soon) - Corcel</title>
 <meta name="generator" content="Hugo 0.16" />
 
 
 <meta name="description" content="Documentation for Corcel">
 
-<link rel="canonical" href="http://docs.corcel.io/setup/getting-started/">
+<link rel="canonical" href="http://docs.corcel.io/extractors/key-value/">
 
 <meta name="author" content="Guzzler.io">
 
 <meta name="generator" content="Hugo 0.16" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:url" content="http://docs.corcel.io/setup/getting-started/">
+<meta property="og:url" content="http://docs.corcel.io/extractors/key-value/">
 <meta property="og:title" content="Corcel">
 
 <meta name="apple-mobile-web-app-title" content="Corcel">
@@ -96,12 +96,12 @@
     </div>
     
 
-    <a class="list-group-item" href=""><b>Extractors</b>
+    <a class="list-group-item child-active" href=""><b>Extractors</b>
     </a>
     
     <div class="list-group">
         
-        <a class="list-group-item" href="http://docs.corcel.io/extractors/key-value/">Key Value </a>
+        <a class="list-group-item active" href="http://docs.corcel.io/extractors/key-value/">Key Value </a>
         
         <a class="list-group-item" href="http://docs.corcel.io/extractors/regex/">Regex </a>
         
@@ -110,12 +110,12 @@
     </div>
     
 
-    <a class="list-group-item child-active" href=""><b>Setup</b>
+    <a class="list-group-item" href=""><b>Setup</b>
     </a>
     
     <div class="list-group">
         
-        <a class="list-group-item active" href="http://docs.corcel.io/setup/getting-started/">Getting Started </a>
+        <a class="list-group-item" href="http://docs.corcel.io/setup/getting-started/">Getting Started </a>
         
     </div>
     
@@ -149,64 +149,17 @@
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-8">
                     <div>
-                        <h1 id="main">Getting Started</h1>
+                        <h1 id="main">Key Value (Coming Soon)</h1>
                     </div>
-                    <p>To get started create a web server using a simple node.js script.</p>
+                    
 
-<p>Add the following to a file called <strong>server.js</strong></p>
+<h2 id="usage">Usage:</h2>
 
-<pre><code class="language-javascript">const http = require('http');
-const url = require(&quot;url&quot;);
-const hostname = 'localhost';
-const port = 1337;
-
-http.createServer((req, res) =&gt; {
-      res.writeHead(200, { 'Content-Type': 'text/plain' });
-            res.end();
-            
-}).listen(port, hostname, () =&gt; {
-      console.log(`Server running at http://${hostname}:${port}/`);
-      
-});
+<pre><code class="language-yaml">assertions:
+    - type: KeyValue
+      name: content-type
+      key: http:response:headers:Content-Type
 </code></pre>
-
-<p>Next create a <a href="http://docs.corcel.io/usage/using-a-url-file">URL file</a> called <strong>urls.txt</strong> and paste the following lines inside:</p>
-
-<pre><code class="language-txt">http://localhost:1337/people
-http://localhost:1337/principles
-http://localhost:1337/practices
-http://localhost:1337/processes
-</code></pre>
-
-<p>Start your node.js web server with the following command:</p>
-
-<pre><code class="language-shell">node server.js
-</code></pre>
-
-<p>Inside a separate terminal invoke <strong>corcel</strong> ensuring you are in the same directory as the <strong>urls.txt</strong> file.</p>
-
-<pre><code class="language-shell">corcel run --duration 10s --workers 2 --summary urls.txt
-</code></pre>
-
-<p>Once the test has finished you should see an output like the following:</p>
-
-<pre><code class="language-shell">╔═══════════════════════════════════════════════════════════════════╗
-║                           Summary                                 ║
-╠═══════════════════════════════════════════════════════════════════╣
-║         Running Time: 10.002795047s                               ║
-║           Throughput: 5263 req/s                                  ║
-║       Total Requests: 52587                                       ║
-║     Number of Errors: 0                                           ║
-║         Availability: 100.0000%                                   ║
-║           Bytes Sent: 2.4 MB                                      ║
-║       Bytes Received: 7.3 MB                                      ║
-║   Mean Response Time: 0.0730 ms                                   ║
-║    Min Response Time: 0.0000 ms                                   ║
-║    Max Response Time: 8.0000 ms                                   ║
-╚═══════════════════════════════════════════════════════════════════╝
-</code></pre>
-
-<p>Corcel can be used currently with a <a href="http://docs.corcel.io/usage/using-a-url-file">URL file</a> or a <a href="http://docs.corcel.io/usage/using-a-scenario-file">Scenario File</a>.</p>
 
                 </div>
             </div>
