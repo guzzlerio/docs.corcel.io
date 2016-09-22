@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>http://docs.corcel.io/actions/amqp/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://docs.corcel.io/assertions/empty/</loc>
     <lastmod>2016-08-24T21:18:21+01:00</lastmod>
   </url>
@@ -63,6 +68,11 @@
   
   <url>
     <loc>http://docs.corcel.io/extractors/regex/</loc>
+    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://docs.corcel.io/actions/tcp/</loc>
     <lastmod>2016-08-24T21:18:21+01:00</lastmod>
   </url>
   

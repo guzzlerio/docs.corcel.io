@@ -10,6 +10,15 @@
     <atom:link href="http://docs.corcel.io/tags/actions/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>AMQP (Coming Soon)</title>
+      <link>http://docs.corcel.io/actions/amqp/</link>
+      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
+      
+      <guid>http://docs.corcel.io/actions/amqp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>HttpRequest</title>
       <link>http://docs.corcel.io/actions/httprequest/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
@@ -43,6 +52,15 @@
 &lt;li&gt;&lt;code&gt;response:status&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>TCP (Coming Soon)</title>
+      <link>http://docs.corcel.io/actions/tcp/</link>
+      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
+      
+      <guid>http://docs.corcel.io/actions/tcp/</guid>
+      <description></description>
     </item>
     
   </channel>

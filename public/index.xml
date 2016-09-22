@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>AMQP (Coming Soon)</title>
+      <link>http://docs.corcel.io/actions/amqp/</link>
+      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
+      
+      <guid>http://docs.corcel.io/actions/amqp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Empty</title>
       <link>http://docs.corcel.io/assertions/empty/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
@@ -246,6 +255,15 @@
     </item>
     
     <item>
+      <title>TCP (Coming Soon)</title>
+      <link>http://docs.corcel.io/actions/tcp/</link>
+      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
+      
+      <guid>http://docs.corcel.io/actions/tcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>XPath</title>
       <link>http://docs.corcel.io/extractors/xpath/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
@@ -261,65 +279,6 @@
       key: http:response:body
       xpath: library/*/isbn 
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using a Scenario File</title>
-      <link>http://docs.corcel.io/usage/using-a-scenario-file/</link>
-      <pubDate>Wed, 24 Aug 2016 21:05:40 +0100</pubDate>
-      
-      <guid>http://docs.corcel.io/usage/using-a-scenario-file/</guid>
-      <description>&lt;p&gt;An example scenario file :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;---
-  name : The plan
-  workers : 5
-  waitTime : 1500
-  duration: 10s
-  random : true
-  parallelJobs : true
-  jobs:
-    -
-      name : Register a user
-      steps:
-        -
-          name: Step number 1
-          action:
-            type : HttpRequest
-            requestTimeout : 150
-            method : GET
-            url : http://localhost:1337/success
-            headers:
-                content-Type: application/json
-          assertions:
-            -
-              type: ExactAssertion
-              key: http:response:status
-              expected: 200
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Corcel documentation home.</title>
-      <link>http://docs.corcel.io/</link>
-      <pubDate>Wed, 24 Aug 2016 19:59:36 +0100</pubDate>
-      
-      <guid>http://docs.corcel.io/</guid>
-      <description>
-
-&lt;h1 id=&#34;gallery&#34;&gt;gallery&lt;/h1&gt;
-
-&lt;p&gt;Fancy box is used to display image gallery with this shortcode:
-
-{{&lt; gallery image=&#34;space1.jpg&#34; &gt;}}
-{{&lt; gallery image=&#34;space2.jpg&#34; addclass=&#34;hidden&#34; &gt;}}
-&lt;/p&gt;
-
-&lt;h1 id=&#34;pygments&#34;&gt;pygments&lt;/h1&gt;
-
-&lt;p&gt;Pygments is used to do syntax highlighting.&lt;/p&gt;
 </description>
     </item>
     
