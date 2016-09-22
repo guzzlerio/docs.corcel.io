@@ -72,6 +72,40 @@
 <div class="list-group table-of-contents">
 
     
+    <a class="list-group-item" href=""><b>Setup</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://docs.corcel.io/setup/getting-started/">Getting Started </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Usage</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://docs.corcel.io/usage/command-line/">Command line options </a>
+        
+        <a class="list-group-item" href="http://docs.corcel.io/usage/using-a-scenario-file/">Using a Scenario File </a>
+        
+        <a class="list-group-item" href="http://docs.corcel.io/usage/using-a-url-file/">Using a URL File </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Actions</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://docs.corcel.io/actions/httprequest/">HttpRequest </a>
+        
+    </div>
+    
+
     <a class="list-group-item" href=""><b>Assertions</b>
     </a>
     
@@ -110,40 +144,6 @@
     </div>
     
 
-    <a class="list-group-item" href=""><b>Setup</b>
-    </a>
-    
-    <div class="list-group">
-        
-        <a class="list-group-item" href="http://docs.corcel.io/setup/getting-started/">Getting Started </a>
-        
-    </div>
-    
-
-    <a class="list-group-item" href=""><b>Usage</b>
-    </a>
-    
-    <div class="list-group">
-        
-        <a class="list-group-item" href="http://docs.corcel.io/usage/command-line/">Command line options </a>
-        
-        <a class="list-group-item" href="http://docs.corcel.io/usage/using-a-scenario-file/">Using a Scenario File </a>
-        
-        <a class="list-group-item" href="http://docs.corcel.io/usage/using-a-url-file/">Using a URL File </a>
-        
-    </div>
-    
-
-    <a class="list-group-item" href=""><b>Actions</b>
-    </a>
-    
-    <div class="list-group">
-        
-        <a class="list-group-item" href="http://docs.corcel.io/actions/httprequest/">HttpRequest </a>
-        
-    </div>
-    
-
 </div>
 
                 </div>
@@ -155,7 +155,7 @@
 
 <h2 id="usage">Usage:</h2>
 
-<pre><code class="language-yaml">assertions:
+<pre><code class="language-yaml">extractors:
     - type: KeyValue
       name: content-type
       key: http:response:headers:Content-Type

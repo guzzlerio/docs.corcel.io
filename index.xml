@@ -147,7 +147,7 @@
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;assertions:
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;extractors:
     - type: KeyValue
       name: content-type
       key: http:response:headers:Content-Type
@@ -236,7 +236,7 @@
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;assertions:
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;extractors:
     - type: Regex
       name: isbn
       key: http:response:body
@@ -255,7 +255,7 @@
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;assertions:
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;extractors:
     - type: XPath
       name: isbn
       key: http:response:body
