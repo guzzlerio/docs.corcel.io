@@ -19,7 +19,7 @@ Server will start up a Corcel Http Server for use in distributed load tests. **T
 
 ## Command line options
 
-### `--summary`
+```--summary```
 
 Outputs a summary of the test which includes the following information
 
@@ -34,26 +34,26 @@ Outputs a summary of the test which includes the following information
 - Min Response Time
 - Max Response Time 
 
-### `--duration=0s`
+```--duration=0s```
 
 Sets the length of time the test will last.  By default the test will run until all urls have been executed or an execution plan has been completed a single time.  See [Valid Timeunits](#valid-time-units) for the value of this option.
 
-### `--wait-time=0s`
+```--wait-time=0s```
 
 Sets the length of time execution will wait between a url or a scenario step.  If multiple workers are configured this value will apply to each worker.  See [Valid Timeunits](#valid-time-units) for the value of this option.
 
-### `--workers=1`
+```--workers=1```
 
 Sets the number of concurrent workers to use to execute the test.
 
 - If using a URL file each worker will visit every URL in the file (unless a duration is set)
 - If using a Scenario file each worker will execute each step of each job
 
-### `--random`
+```--random```
 
 Sets the selection of the URL or the Job to be random.
 
-### `--progress`
+```--progress```
 
 Sets the progress bar to use. Available options are: `none|bar|logo`
 
