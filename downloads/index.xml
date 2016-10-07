@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Downloads on Corcel</title>
+    <link>http://docs.corcel.io/downloads/</link>
+    <description>Recent content in Downloads on Corcel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="http://docs.corcel.io/downloads/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://docs.corcel.io/downloads/something/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.corcel.io/downloads/something/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+    &lt;head&gt;
+        {{ partial &#34;header&#34; . }}
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&#34;navbar navbar-default navbar-fixed-top&#34;&gt;
+            {{ partial &#34;navbar&#34; . }}
+        &lt;/div&gt;
+
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3&#34;&gt;
+                    &lt;ul&gt;
+                      {{ $urlPre := &#34;https://api.github.com&#34; }}
+                      {{ $gistJ := getJSON $urlPre &#34;/users/reaandrew/gists&#34; }}
+                      {{ range first 5 $gistJ }}
+                        {{ if .public }}
+                          &lt;li&gt;&lt;a href=&#34;{{ .html_url }}&#34; target=&#34;_blank&#34;&gt;{{ .description }}&lt;/a&gt;&lt;/li&gt;
+                        {{ end }}
+                      {{ end }}
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+
+                &lt;/div&gt;
+                &lt;div class=&#34;row&#34;&gt;
+                    &lt;div class=&#34;col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3&#34;&gt;
+                        {{ partial &#34;footer&#34; . }}
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
