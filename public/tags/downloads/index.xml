@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Downloads on Corcel</title>
+    <link>http://docs.corcel.io/tags/downloads/</link>
+    <description>Recent content in Downloads on Corcel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 24 Aug 2016 21:18:21 +0100</lastBuildDate>
+    <atom:link href="http://docs.corcel.io/tags/downloads/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Downloads</title>
+      <link>http://docs.corcel.io/downloads/something/</link>
+      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
+      
+      <guid>http://docs.corcel.io/downloads/something/</guid>
+      <description>&lt;p&gt;{{ $urlPre := &amp;ldquo;&lt;a href=&#34;https://api.github.com&amp;quot;&#34;&gt;https://api.github.com&amp;quot;&lt;/a&gt; }}
+{{ $gistJ := getJSON $urlPre &amp;ldquo;/users/reaandrew/gists&amp;rdquo; }}
+{{ range first 5 $gistJ }}
+{{ if .public }}
+- &lt;a href=&#34;{{ .html_url }}&#34;&gt;{{ .description }}&lt;/a&gt;
+{{ end }}
+{{ end }}&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
