@@ -5,6 +5,7 @@ metaDataFormat: yaml
 theme:          theme.corcel.io
 canonifyUrls:   true
 params:
+  corcelUrl: http://corcel.io
   # General information
   author:      Guzzler.io
   description: Documentation for Corcel
