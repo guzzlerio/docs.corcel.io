@@ -4,15 +4,10 @@ title: Corcel documentation home.
 type: index
 ---
 
-# gallery
+# Corcel Documentation
 
-Fancy box is used to display image gallery with this shortcode:
-{{< highlight html >}}
-{{</* gallery image="space1.jpg" */>}}
-{{</* gallery image="space2.jpg" addclass="hidden" */>}}
-{{< /highlight >}}
+Please see our [Getting Started Guide](http://docs.corcel.io/setup/getting-started/) to get up and running quickly.  You can get corcel from our [Downloads](http://corcel.io/downloads/) section.
 
-# pygments
+## Tutorials
 
-Pygments is used to do syntax highlighting.
-
+Coming shortly will be an selection of tutorials which you can follow and get up to speed with the different features of Corcel.

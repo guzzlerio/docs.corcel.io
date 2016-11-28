@@ -8,4 +8,9 @@ menu:
     parent: Setup
 ---
 
-Go to [downloads.corcel.io](downloads.corcel.io) and download the corcel package for your operating system.
+Go to our [downloads section](http://corcel.io/downloads/) and download the corcel package for your operating system.  
+
+## Package Managers
+
+**We will soon** support popular package managers on the various distributions including aptitude, pacman, yum, homebrew, chocolatey and more ...
+
