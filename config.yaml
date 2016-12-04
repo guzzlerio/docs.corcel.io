@@ -8,7 +8,7 @@ params:
   corcelUrl: http://corcel.io
   # General information
   author:      Guzzler.io
-  description: Corcel - Performance Testing Tool: Documentation
+  description: "Corcel - Performance Testing Tool: Documentation"
   copyright:   Released under Mozilla Public License Version 2.0
 
   # Repository
