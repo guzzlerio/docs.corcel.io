@@ -7,6 +7,8 @@ curl -o tags.json https://api.github.com/repos/guzzlerio/deride
 # Build the project.
 hugo
 
+echo "docs.corcel.io" > public/CNAME
+
 # Add changes to git.
 git add -A
 
